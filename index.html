@@ -44,7 +44,58 @@
 
 <footer>  
     <p>فوتر © 2024</p>  
+</footer> 
+<!DOCTYPE html>  
+<html lang="fa">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>گالری تصاویر</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+        }  
+        .gallery {  
+            display: grid;  
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  
+            gap: 10px;  
+            padding: 10px;  
+        }  
+        .gallery img {  
+            width: 100%;  
+            height: auto;  
+            border-radius: 8px;  
+            transition: transform 0.2s;  
+        }  
+        .gallery img:hover {  
+            transform: scale(1.05);  
+        }  
+    </style>  
+</head>  
+<body>  
+
+<header>  
+    <h1 style="text-align: center;">گالری تصاویر</h1>  
+</header>  
+
+<main>  
+    <div class="gallery">  
+        <img src="https://via.placeholder.com/200" alt="تصویر 1">  
+        <img src="https://via.placeholder.com/200?text=تصویر+2" alt="تصویر 2">  
+        <img src="https://via.placeholder.com/200?text=تصویر+3" alt="تصویر 3">  
+        <img src="https://via.placeholder.com/200?text=تصویر+4" alt="تصویر 4">  
+        <img src="https://via.placeholder.com/200?text=تصویر+5" alt="تصویر 5">  
+        <img src="https://via.placeholder.com/200?text=تصویر+6" alt="تصویر 6">  
+    </div>  
+</main>  
+
+<footer>  
+    <p style="text-align: center;">فوتر © 2024</p>  
 </footer>  
 
+</body>  
+</html> 
 </body>  
 </html>
